@@ -1,4 +1,4 @@
 streamlit
 google-generativeai
-python-dotenv
+python3-dotenv
 pdf2image
