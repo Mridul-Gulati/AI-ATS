@@ -6,8 +6,7 @@ import google.generativeai as genai
 import base64
 
 
-genai.configure("AIzaSyBpCDKa8XQxdolvixjeOC3QiiIIm0V4EsU")
-
+genai.configure(api_key = st.secrets["GOOGLE_API_KEY"])
 def get_gemini_response(input, pdf_content,prompt):
     model = genai.GenerativeModel("gemini-pro-vision")
     response = model.generate_content([input, pdf_content[0], prompt])
