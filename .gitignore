@@ -1,3 +1,14 @@
+# .gitignore
 streamlit/
+# Python-specific files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Pipenv files
 Pipfile
 Pipfile.lock
+
+# Other environment-specific files
+.env
