@@ -1,6 +1,7 @@
 import streamlit as st
 import io
 import pdf2image
+from PIL import Image
 import google.generativeai as genai
 import base64
 
