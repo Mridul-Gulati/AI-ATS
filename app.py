@@ -5,9 +5,8 @@ from PIL import Image
 import google.generativeai as genai
 import base64
 
-st.secrets.load_config_file("secrets.toml")
 
-genai.configure(st.secrets["GOOGLE_API_KEY"])
+genai.configure("AIzaSyBpCDKa8XQxdolvixjeOC3QiiIIm0V4EsU")
 
 def get_gemini_response(input, pdf_content,prompt):
     model = genai.GenerativeModel("gemini-pro-vision")
