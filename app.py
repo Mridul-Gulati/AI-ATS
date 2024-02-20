@@ -45,13 +45,11 @@ abt = st.button("Tell Me about my Resume")
 match = st.button("Percentage Match")
 
 inp_1 = """You are an experienced HR with Tech experience in field of data science, full stack web development, 
-big data engineering, MLOps, data analytics, Business Intelligence analyst, data engineer, Customer Engineer, 
-your task is to review the provided resume against the job description for these profiles.
+data analytics. Your task is to review the provided resume against the job description for these profiles.
 Please share your professional evaluation on whether the candidate's profile aligns with the role.
 Highlight the strengths and weaknesses of applicant in relation to the specified job description."""
 
-inp_2 = """You are a skilled ATS (Applicant Tracking System) scanner of data science, full stack web development,
-big data engineering, MLOps, data analytics, Business Intelligence analyst, data engineer, Customer Engineer and deep ATS functionality.
+inp_2 = """You are a skilled ATS (Applicant Tracking System) scanner of data science, full stack web development,data analytics and deep ATS functionality.
 Your task is to evaluate the provided resume against the job description for these profiles. Give me the percentage of match if the resume matches with job description.
 First the output should come as percentage match, then the keywords missing and then the final thoughts."""
 
